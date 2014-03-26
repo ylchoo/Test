@@ -22,6 +22,12 @@
 		B29C473D18E2D5F700B7CA67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C471C18E2D5F700B7CA67 /* UIKit.framework */; };
 		B29C474518E2D5F700B7CA67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B29C474318E2D5F700B7CA67 /* InfoPlist.strings */; };
 		B29C474718E2D5F700B7CA67 /* SCTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B29C474618E2D5F700B7CA67 /* SCTestTests.m */; };
+		B29C475418E2D61800B7CA67 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475018E2D61800B7CA67 /* CoreText.framework */; };
+		B29C475518E2D61800B7CA67 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475118E2D61800B7CA67 /* OpenGLES.framework */; };
+		B29C475618E2D61800B7CA67 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475218E2D61800B7CA67 /* Security.framework */; };
+		B29C475718E2D61800B7CA67 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475318E2D61800B7CA67 /* QuartzCore.framework */; };
+		B29C475918E2D62100B7CA67 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475818E2D62100B7CA67 /* libc++.dylib */; };
+		B29C475B18E2D62600B7CA67 /* ShinobiCharts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B29C475A18E2D62600B7CA67 /* ShinobiCharts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		B29C474218E2D5F700B7CA67 /* SCTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCTestTests-Info.plist"; sourceTree = "<group>"; };
 		B29C474418E2D5F700B7CA67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B29C474618E2D5F700B7CA67 /* SCTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCTestTests.m; sourceTree = "<group>"; };
+		B29C475018E2D61800B7CA67 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		B29C475118E2D61800B7CA67 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B29C475218E2D61800B7CA67 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		B29C475318E2D61800B7CA67 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B29C475818E2D62100B7CA67 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		B29C475A18E2D62600B7CA67 /* ShinobiCharts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShinobiCharts.framework; path = "../../../ClinicalChartist/Shinobi 2.5.7/ShinobiChartsPremium2.5.7/ShinobiCharts.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,8 +74,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B29C475518E2D61800B7CA67 /* OpenGLES.framework in Frameworks */,
+				B29C475418E2D61800B7CA67 /* CoreText.framework in Frameworks */,
+				B29C475718E2D61800B7CA67 /* QuartzCore.framework in Frameworks */,
 				B29C471B18E2D5F700B7CA67 /* CoreGraphics.framework in Frameworks */,
+				B29C475B18E2D62600B7CA67 /* ShinobiCharts.framework in Frameworks */,
 				B29C471D18E2D5F700B7CA67 /* UIKit.framework in Frameworks */,
+				B29C475618E2D61800B7CA67 /* Security.framework in Frameworks */,
+				B29C475918E2D62100B7CA67 /* libc++.dylib in Frameworks */,
 				B29C471918E2D5F700B7CA67 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -103,6 +121,12 @@
 		B29C471718E2D5F700B7CA67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B29C475818E2D62100B7CA67 /* libc++.dylib */,
+				B29C475A18E2D62600B7CA67 /* ShinobiCharts.framework */,
+				B29C475018E2D61800B7CA67 /* CoreText.framework */,
+				B29C475118E2D61800B7CA67 /* OpenGLES.framework */,
+				B29C475218E2D61800B7CA67 /* Security.framework */,
+				B29C475318E2D61800B7CA67 /* QuartzCore.framework */,
 				B29C471818E2D5F700B7CA67 /* Foundation.framework */,
 				B29C471A18E2D5F700B7CA67 /* CoreGraphics.framework */,
 				B29C471C18E2D5F700B7CA67 /* UIKit.framework */,
@@ -390,6 +414,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/project/ClinicalChartist/Shinobi,
+					2.5.7/ShinobiChartsPremium2.5.7,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCTest/SCTest-Prefix.pch";
 				INFOPLIST_FILE = "SCTest/SCTest-Info.plist";
@@ -403,6 +432,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/project/ClinicalChartist/Shinobi,
+					2.5.7/ShinobiChartsPremium2.5.7,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SCTest/SCTest-Prefix.pch";
 				INFOPLIST_FILE = "SCTest/SCTest-Info.plist";
